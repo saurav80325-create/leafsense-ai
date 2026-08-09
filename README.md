@@ -212,6 +212,17 @@ The application provides a simple web interface where users can:
 5. View the confidence score and top-3 predictions.
 6. View the possible cause and recommended treatment.
 
+### Home Interface
+
+![LeafSense AI Home](static/images/screenshots/home.png)
+
+### Custom CNN Prediction
+
+![Custom CNN Prediction](static/images/screenshots/cnn-prediction.png)
+
+### MobileNetV2 Prediction
+
+![MobileNetV2 Prediction](static/images/screenshots/mobilenet-prediction.png)
 ---
 
 ## 👥 Contributors
