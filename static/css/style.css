@@ -1,0 +1,113 @@
+
+@keyframes changeFrame {
+    0%{
+        background-image: url('../images/crop_background1.jpg');
+    }
+
+    25%{
+        background-image: url('../images/crop_background2.jpg');
+    }
+
+    50%{
+        background-image: url('../images/crop_background3.jpg');
+    }
+
+    75%{
+        background-image: url('../images/crop_background4.jpg');
+    }
+
+    /* 100%{
+        background-image: url('../images/crop_background5.jpg');
+    } */
+}
+
+
+.text-center h1{
+    font-weight: bold;
+    font-size: 72px;
+    text-shadow: 4px 4px 4px #565257;
+
+}
+.carousel-text-title{
+    font-weight: bold;
+    font-size: 72px;
+    text-shadow: 4px 4px 4px #565257;
+
+}
+
+.form-box{
+    margin: auto;
+    text-align: center;
+    display: flex;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+
+}
+form{
+    margin: auto;
+
+}
+.input-box{
+    margin: 15px
+}
+
+/* .result-container{
+    background-color: blue;
+    
+} */
+
+.carousel-item {
+    width: 100vw;
+    min-height: 95vh;        /* change height to min-height */
+    color: white;
+    background-image: url('../images/crop_background1.jpg');
+    background-size: 100% 100%;
+    animation: changeFrame 20s linear infinite;
+}
+
+.carousel-text-wrapper {
+    width: 100%;
+    min-height: 95vh;        /* change height to min-height */
+    display: flex;
+    backdrop-filter: blur(2px);
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;    /* add breathing room at bottom */
+}
+
+.result-img-container {
+    width: 30%;
+    min-height: 300px;       /* was height: 80% — fixed */
+    margin: auto;
+    border-radius: 15px;
+}
+
+.result-image {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;       /* ensure image has enough height */
+    object-fit: cover;       /* fills container without stretching */
+    border-radius: 20px;
+}
+
+.result-box {
+    margin: auto;
+    min-height: 400px;       /* was fixed height: 400px */
+    width: 90vw;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.result-text {
+    width: 60%;
+    margin: auto;
+    padding: 1.5rem;         /* add padding so text isn't flush */
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    overflow-y: auto;        /* scroll within text area if needed */
+}
